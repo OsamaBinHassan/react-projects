@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+.App-header{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: aliceblue;
+}
+.Wrapper{
+  background: rgb(179, 160, 160);
+  padding: 10px;
+  border-radius: 10%;
+  box-shadow: 0 1px 4px 0 rgba(red, green, blue, alpha);
+}
+.Input-wrapper{
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  align-items: center;
+}
+.Input-wrapper input{
+  border-radius: 4%;
+  border: 0;
+  background-color: #ede7fe;
+  width: 160px;
+  padding: 6px;
+  height: 20px;
+}
+.Input-wrapper button{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+ padding: 0;
+}
